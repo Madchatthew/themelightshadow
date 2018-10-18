@@ -16,7 +16,6 @@ use DirectoryIterator;
 use Flarum\Event\ConfigureLocales;
 use Flarum\Event\ConfigureWebApp;
 use Illuminate\Contracts\Events\Dispatcher;
-
 class AddClientAssets
 {
 
@@ -30,7 +29,7 @@ class AddClientAssets
         $events->listen(ConfigureWebApp::class, [$this, 'configureWebApp']);
         $events->listen(ConfigureLocales::class, [$this, 'addLocales']);
     }
-    
+
     /**
      * Modifies the client view for forum/admin.
      *
@@ -54,7 +53,7 @@ class AddClientAssets
             $event->addBootstrapper('madchatthew/flarum-ext-themelightshadow/main');
         }
     }
-    
+
     /**
      * Provides i18n files.
      *
