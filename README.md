@@ -23,6 +23,7 @@ php flarum cache:clear
 
 ### Links
 
+- [Github](https://github.com/Madchatthew/flarum-ext-themelightshadow) - Go here to create a pull request and/or to help with upcoming feature(s).
 - [Packagist](https://packagist.org/packages/madchatthew/flarum-ext-themelightshadow)
 
 ### Credits
