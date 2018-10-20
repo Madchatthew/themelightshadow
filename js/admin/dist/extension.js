@@ -10,7 +10,9 @@ System.register('madchatthew/flarum-ext-themelightshadow/main', ['flarum/app'], 
     }],
     execute: function () {
 
-      app.initializers.add('madchatthew/flarum-ext-themelightshadow', function () {});
+      app.initializers.add('madchatthew/flarum-ext-themelightshadow', function () {
+        console.log('Hello, forum!');
+      });
     }
   };
 });
