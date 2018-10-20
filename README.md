@@ -24,3 +24,10 @@ php flarum cache:clear
 ### Links
 
 - [Packagist](https://packagist.org/packages/madchatthew/flarum-ext-themelightshadow)
+
+### Credits
+
+- [Extum](https://github.com/Extum) - Thank you for laying all the ground work and beyond for being able to make a theme. Especially, for me just starting out with programming.
+- [Flagrow](https://github.com/flagrow) - Thank you as well for the ground work and well thought out code. I appreciate being able to have your code as an example.
+
+- I want to thank you both for your hard work, and I look forward to picking the brains of those on Flarum Discuss for a feature I would like to implement. This is my first extension and although it is mostly css, I have learned a lot and look forward to learning even more.
