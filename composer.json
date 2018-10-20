@@ -23,9 +23,9 @@
   },
   "extra": {
     "flarum-extension": {
-      "title": "Flarum-ext-themelightshadow",
+      "title": "Theme Light Shadow",
       "icon": {
-        "name": "Theme Light Shadow",
+        "image": "resources/icon.jpg",
         "backgroundColor": "",
         "color": ""
       }
