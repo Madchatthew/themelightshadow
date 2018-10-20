@@ -2,7 +2,7 @@
 
 ---
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/madchatthew/flarum-ext-themelightshadow.svg)](https://packagist.org/packages/madchatthew/flarum-ext-themelightshadow)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 A [Flarum](http://flarum.org) extension. Light shadowbox theme
 
