@@ -26,8 +26,9 @@
       "title": "Theme Light Shadow",
       "icon": {
         "image": "resources/icon.jpg",
-        "backgroundColor": "",
-        "color": ""
+        "backgroundSize": "cover",
+        "backgroundPosition": "center",
+        "backgroundRepeat": "no-repeat"
       }
     },
     "flagrow": {
