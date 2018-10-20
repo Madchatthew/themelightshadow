@@ -26,7 +26,7 @@
       "title": "Theme Light Shadow",
       "icon": {
         "image": "resources/icon.jpg",
-        "backgroundSize": "cover",
+        "backgroundSize": "75%",
         "backgroundPosition": "center",
         "backgroundRepeat": "no-repeat"
       }
