@@ -25,7 +25,7 @@
     "flarum-extension": {
       "title": "Theme Light Shadow",
       "icon": {
-        "image": "resources/icon.png",
+        "Image": "resources/icon.png",
         "backgroundSize": "75%",
         "backgroundPosition": "center",
         "backgroundRepeat": "no-repeat"
