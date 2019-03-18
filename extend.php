@@ -12,7 +12,10 @@
 namespace Madchatthew\ThemeLightShadow;
 
 use Flarum\Extend;
+<<<<<<< HEAD
 use Illuminate\Contracts\Events\Dispatcher;
+=======
+>>>>>>> 11c991a... Initial beta 8 commit
 
 return [
     (new Extend\Frontend('forum'))

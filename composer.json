@@ -25,6 +25,7 @@
     "flarum-extension": {
       "title": "Theme Light Shadow",
       "icon": {
+<<<<<<< HEAD
         "Image": "resources/icon.png",
         "backgroundSize": "75%",
         "backgroundPosition": "center",
@@ -33,6 +34,15 @@
     },
     "flagrow": {
       "discuss": "https://discuss.flarum.org/d/17106-theme-light-shadow"
+=======
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+>>>>>>> 11c991a... Initial beta 8 commit
     }
   }
 }
