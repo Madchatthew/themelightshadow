@@ -112,7 +112,6 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var flarum_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! flarum/app */ "flarum/app");
 /* harmony import */ var flarum_app__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(flarum_app__WEBPACK_IMPORTED_MODULE_0__);
-// import { extend } from '@flarum/core/forum';
 
 flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializers.add('madchatthew/themelightshadow', function () {});
 
