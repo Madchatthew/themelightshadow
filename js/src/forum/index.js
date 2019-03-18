@@ -1,5 +1,4 @@
+// import { extend } from '@flarum/core/forum';
 import app from 'flarum/app';
 
-app.initializers.add('madchatthew/themelightshadow', () => {
-  console.log('Hello, forum!');
-});
+app.initializers.add('madchatthew/themelightshadow', () => {});

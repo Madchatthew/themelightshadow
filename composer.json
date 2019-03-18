@@ -25,13 +25,14 @@
     "flarum-extension": {
       "title": "Theme Light Shadow",
       "icon": {
-        "name": "",
-        "backgroundColor": "",
-        "color": ""
+        "image": "resources/icon.png",
+        "backgroundSize": "75%",
+        "backgroundPosition": "center",
+        "backgroundRepeat": "no-repeat"
       }
     },
     "flagrow": {
-      "discuss": ""
+      "discuss": "https://discuss.flarum.org/d/17106-theme-light-shadow"
     }
   }
 }
