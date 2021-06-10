@@ -12,7 +12,7 @@
 namespace Madchatthew\ThemeLightShadow;
 
 use Flarum\Extend;
-use Illuminate\Contracts\Events\Dispatcher;
+use Flarum\Frontend\Document;
 
 return [
     (new Extend\Frontend('forum'))
