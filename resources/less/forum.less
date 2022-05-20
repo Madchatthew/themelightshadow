@@ -33,8 +33,12 @@ body {
 	color: #005aff !important;
 }
 
-.read .DiscussionListItem-title {
-	color: #000000;
+.read:hover .DiscussionListItem-title:hover {
+	color: #ffffff;
+}
+
+.DiscussionList:not(.DiscussionList--searchResults):hover .read:hover .DiscussionListItem-title:hover {
+    color: white !important;
 }
 
 .DiscussionListItem-info {
@@ -60,6 +64,11 @@ body {
 .unread .DiscussionListItem-title {
     font-weight: 600;
     color: #A52A2A;
+}
+
+.unread:hover .DiscussionListItem-title:hover {
+    font-weight: 600;
+    color: #ffffff;
 }
 
 .DiscussionListItem {
@@ -170,6 +179,11 @@ header.Hero.TagHero.TagHero--colored {
     border: 1px solid #4d698e;
     max-height: 36px;
     margin-right: 4px;
+    background-color: #ffffff;
+}
+
+.Button:hover {
+    color: #ffffff !important
 }
 
 .DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Button:first-child {
@@ -218,6 +232,31 @@ header.Hero.TagHero.TagHero--colored {
     box-shadow: 5px 10px 18px #4D698E;
     margin-bottom: 22px;
     border: 1px solid #4d698e;
+    background-color: #ffffff !important;
+}
+
+.FormControl {
+    --transition: border-color .15s,background .15s;
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 8px 13px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--control-color);
+    background-color: #ffffff !important;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius);
+}
+
+.FormControl:hover {
+    color: #ffffff !important;
+    background-color: #b8c3d2 !important;
+}
+
+.Search-input:hover {
+    color: #ffffff !important;
+    background-color: #b8c3d2 !important;
 }
 
 .DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Button:first-child {
@@ -225,8 +264,18 @@ header.Hero.TagHero.TagHero--colored {
     box-shadow: 5px 10px 18px #4d698e;
     margin-bottom: 22px;
     border: 1px solid #4d698e;
-    background-color: #e8ecf3;
+    background-color: #ffffff;
     margin-right: -4px;
+}
+
+.DiscussionPage-nav:hover .ButtonGroup:not(.itemCount1):hover .Button:first-child:hover {
+    width: 77%;
+    box-shadow: 5px 10px 18px #4d698e;
+    margin-bottom: 22px;
+    border: 1px solid #4d698e;
+    background-color: #b8c3d2;
+    margin-right: -4px;
+    color: #ffffff !important;
 }
 
 .DiscussionPage-nav .ButtonGroup:not(.itemCount1) .Dropdown-toggle {
@@ -234,7 +283,21 @@ header.Hero.TagHero.TagHero--colored {
     box-shadow: 5px 10px 18px #4d698e;
     margin-bottom: 22px;
     border: 1px solid #4d698e;
-    background-color: #e8ecf3;
+    background-color: #ffffff;
+}
+
+.DiscussionPage-nav:hover .ButtonGroup:not(.itemCount1):hover .Dropdown-toggle:hover {
+    width: 22%;
+    box-shadow: 5px 10px 18px #4d698e;
+    margin-bottom: 22px;
+    border: 1px solid #4d698e;
+    background-color: #b8c3d2;
+    color: #ffffff !important;
+}
+
+.TextEditor .FormControl:hover {
+    background-color: #ffffff !important;
+    color: #4d698e;
 }
 
 .Scrubber {
@@ -292,7 +355,12 @@ header.Hero.TagHero.TagHero--colored {
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
-    background-color: #e8ecf3 !important;
+    background-color: #ffffff !important;
+}
+
+.IndexPage-nav .item-newDiscussion:hover .Button {
+    background-color: #B8C3D2 !important;
+    color: #ffffff !important;
 }
 
 .Button--icon {
@@ -398,4 +466,67 @@ header.Hero.TagHero.TagHero--colored {
 
 .TextEditor-toolbar .Button--icon {
     width: 45px;
+}
+
+.TextEditor-controls {
+    margin: 0 -64px 0 -137px;
+    padding: 10px 20px;
+    border-top: 1px solid var(--control-bg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+textarea.FormControl:hover {
+    color: #4d698e !important;
+}
+
+.ReplyPlaceholder {
+    font-size: 15px;
+    cursor: text;
+    overflow: inherit;
+    color: var(--muted-color);
+}
+
+.SessionDropdown .Dropdown-toggle {
+    border-radius: 18px;
+    margin-left: 0.75rem;
+    background-color: #ffffff;
+}
+
+.SessionDropdown:hover .Dropdown-toggle:hover {
+    border-radius: 18px;
+    margin-left: 0.75rem;
+    background-color: #b8c3d2;
+    color: #ffffff !important;
+}
+
+.NotificationsDropdown .Dropdown-toggle {
+    width: 36px;
+    text-align: center;
+    padding: 8px 0;
+    background-color: #ffffff;
+    margin-left: 0.5rem;
+}
+
+.NotificationsDropdown:hover .Dropdown-toggle:hover {
+    width: 36px;
+    text-align: center;
+    padding: 8px 0;
+    background-color: #b8c3d2;
+    color: #ffffff !important;
+    margin-left: 0.5rem;
+}
+
+.Post-body blockquote {
+    font-size: inherit;
+    border: 0;
+    background: var(--control-bg);
+    color: #005aff;
+    border-radius: var(--border-radius);
+    padding: 8px 15px;
+    border-top: 2px dotted var(--body-bg);
+    border-bottom: 2px dotted var(--body-bg);
+    margin: 1em 0;
 }
